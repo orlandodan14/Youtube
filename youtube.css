@@ -1,0 +1,171 @@
+body {
+	margin: 0;
+	padding: 0;
+  background: #f1f1f1;
+  font-family: "Roboto", arial, sans-serif;
+  font-weight: normal;
+}
+
+/*========== Header ==========*/
+
+/* Navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+/* General links in navbar */
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: none;
+}
+
+/* Left button menu */
+.menu {
+    height: 16px;
+    margin: 20px 20px 10px 50px;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+/* Left logo Youtube */
+.logo {
+    height: 50px;
+}
+
+/* Search bar */
+#search {
+    margin: 0 50px;
+    width: 50%;
+}
+
+input[type=text] {
+    margin: 12px 0;
+    width: 85%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    color: #808080;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+}
+
+.button {
+    border: none;
+    padding: 6px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.buttonsearch {
+  background-color: #e7e7e7;
+  border: 1px solid #ccc;
+  margin: 0;
+  position: relative;
+  left: -7px;
+  bottom: -1px;
+}
+
+.searchimg {
+  height: 16px;
+}
+
+/* Button upload right */
+#upload {
+ position: relative;
+ right: -130px; 
+}
+
+.upload {
+  height: 20px;
+  margin: 20px 40px 0 40px;
+}
+
+/* Button access right */
+#access {  
+  float: right;
+}
+
+.buttonaccess {
+  background-color: #008CBA;
+  color: #fff;
+  margin: 15px 40px 0 40px;
+  border-radius: 3px;
+  padding: 8px 15px;
+  font-size: xx-small;
+}
+
+/*============ Content ==============*/
+
+#content {
+  margin: 10px 5%;
+}
+
+#video {
+  display: inline-block;
+  margin-top: 3px;
+}
+
+/* Information abot the video */
+
+#infovideo {
+  height: 150px;
+  width: 720px;
+  margin: 10px 0;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #f1f1f1;
+}
+
+#infovideo p {
+  display: block;
+  margin: 0 10px;
+  padding: 10px 5px;
+  font-size: 25px;
+}
+
+.info {
+  border-bottom: 1px solid #ccc;
+}
+
+.authorname {
+  display: inline;
+}
+
+.authorname h6 {
+  display: inline;
+}
+
+.imgavatar {
+  height: 50px;
+  margin: 10px 5px 2px 15px;;
+}
+
+/*============ Sidebar ==============*/
+
+#sidebar {
+  display: inline-block;
+  position: absolute;
+  margin: 0 0 0 10px;
+  border: 1px solid #f1f1f1;
+}
